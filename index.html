@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+
+        <div class="text-container">
+            <h1>C++ Clicker</h1>
+
+            <h2 id="click-count">Clicks: 0</h2>
+
+            <img src="CPP.png" draggable="false" id="clicker" class="clicker">
+
+            <h2 id="cps-count">Clicks per second: 0</h2>
+            <h2 id="click-value">Click value: 1</h2>
+        </div>
+
+        <div class="menu-container">
+            <h2>Upgrades</h2></h1>
+
+            <div class="upgrade" id="upgrade1-div">
+                <img src="intmain.png" id="upgrade1" draggable="false" class="upgrade-image" data-cost="20" data-id="1" data-type="cps">
+                <div>
+                    <p>Cost: <span id="upgrade1-cost">20</span></p>
+                    <p>Increases clicks per second by 1</p>
+                </div>
+            </div>
+
+            <div class="upgrade" id="upgrade2-div">
+                <img src="stdcout.png" id="upgrade2" draggable="false" class="upgrade-image" data-cost="100" data-id="2" data-type="cps">
+                <div>
+                    <p>Cost: <span id="upgrade2-cost">100</span></p>                
+                    <p>Increases clicks per second by 5</p>
+                </div>
+            </div>
+
+            <div class="upgrade" id="upgrade3-div">
+                <img src="whiletrue.png" id="upgrade3" draggable="false" class="upgrade-image" data-cost="1000" data-id="3" data-type="cps">
+                <div>
+                    <p>Cost: <span id="upgrade3-cost">1000</span></p>                
+                    <p>Increases clicks per second by 20</p>
+                </div>
+            </div>
+
+            <div class="upgrade" id="upgrade4-div">
+                <img src="forloop.png" id="upgrade4" draggable="false" class="upgrade-image" data-cost="50" data-id="1" data-type="click">
+                <div>
+                    <p>Cost: <span id="upgrade4-cost">50</span></p>                
+                    <p>Increases click value by 1</p>
+                </div>
+            </div>
+
+        </div>
+
+        
+        
+    </div>
+    <div class="bottom">
+
+        <button id="reset-button">Reset Game</button>
+
+    </div>
+    
+
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

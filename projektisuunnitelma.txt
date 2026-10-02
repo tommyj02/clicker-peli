@@ -1,0 +1,10 @@
+Projektisuunnitelma Clicker-pelille
+
+Idea: ajattelin tehdä koodaamiseen liittyvän teeman pelille.
+
+Päädyin tekemään pelistä C++ teemaisen.
+
+Klikattava "objekti" tulee olemaan C++ logo. Niin sanotut "upgradet" jolla saa enemmän pisteitä, tulevat olemaan eri C++ variableja/methodeja.
+
+
+Toteutan projektin elementti kerrallaan, ensin teen klikattavan C++ kuvan valmiiksi, sen jälkeen lisään tekstin joka näyttää pisteet, jonka jälkeen teen tämän upgrade järjestelmä. Lopuksi viimeistelen projektin muotoilemalla sen CSS:llä paremmin.
